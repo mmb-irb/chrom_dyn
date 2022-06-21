@@ -23,17 +23,19 @@ The expected time of execution is approximately 10 seconds per MC iteration on a
 desktop computer.
 
 ------------------------------------------------------------------------------------------
-WEB VERSION
+### Web version
 
-Chromatin dynamics can be executed on a web server:
-http://vre.multiscalegenomics.eu/launch/
+Chromatin dynamics can be executed on a web server: http://vre.multiscalegenomics.eu/launch/
 
 Select "Chromatin Dynamics" > "CREATE 3D REPRESENTATION OF CHROMATIN FIBER FROM SEQUENCE"
 
-DNA sequence: <linker sequence file>
-Position of nucleosomes: <nucleosome positions file>
+DNA sequence: [linker sequence file]
+
+Position of nucleosomes: [nucleosome positions file]
+
 Operations: "Create Trajectory"
-Number of structures: number of structures to generate
+
+Number of structures: number of structures to generate.
 
 Help: http://vre.multiscalegenomics.eu/tools/chromatindyn/help/help.php
 
