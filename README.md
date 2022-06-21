@@ -1,7 +1,6 @@
 # Chromatin Dynamics
-## Molecular Modelling and Bioinformatics Group, IRB Barcelona
 
-### General description
+## General description
 
 Chromatin Dynamics allows to obtain 3D structures of chromatin fibers at the base pair 
 level considering nucleosome positions. It requires as input the sequence of linker DNA
@@ -11,7 +10,8 @@ Linker DNA is represented at the base pair level by a pseudo-harmonic potential 
 in helical parameters (rise, slide, shift, twist, roll, tilt). Debye-Huckel electrostatics
 and excluded volume potentials are added to avoid overlaps.
 
-### Precompiled version for Linux
+------------------------------------------------------------------------------------------
+## Precompiled version for Linux
 
 Tested on different Ubuntu and Fedora terminals.<br/>
 No installation required (see below for compiling/installing from source files)
@@ -48,7 +48,7 @@ The expected time of execution is approximately 10 seconds per MC iteration on a
 desktop computer.
 
 ------------------------------------------------------------------------------------------
-### Web version
+## Web version
 
 Chromatin dynamics can be executed on a web server: http://vre.multiscalegenomics.eu/launch/
 
