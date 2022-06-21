@@ -45,9 +45,13 @@ Example:
 
 &emsp; &emsp; Representations -> Selected Atoms: name N; Drawing method:VDW; Sphere Scale: 14.
 
-"output_nucl": xyz files containing 3D nucleosome configurations for each structure
-               (numbered consecutively as nucl_000000_000001.xyz, nucl_000000_000002.xyz,
-                ...); each nucleosome center is represented as a N atom.
+"output_nucl":
+
+&emsp; xyz files containing 3D nucleosome configurations for each structure.
+
+&emsp; Numbered consecutively as nucl_000000_000001.xyz, nucl_000000_000002.xyz, ...).
+
+&emsp; Each nucleosome center is represented as a N atom.
 
 The expected time of execution is approximately 10 seconds per MC iteration on a standard
 desktop computer.
