@@ -11,10 +11,10 @@ No installation required (see below for compiling/installing from source files)
 
 Execution:
 
-> sh run.sh <nucleosome positions> <linker sequence> <# of MC iterations> <output folder>
+> sh run.sh [nucleosome positions] [linker sequence] [# of MC iterations] [output folder]
 
-	- The output folder should not exist and an absolute path should be given.
-        - See DESCRIPTION below for a brief explanation of required files.
+- The output folder should not exist and an absolute path should be given.
+- See DESCRIPTION below for a brief explanation of required files.
 
 Example:
 sh run.sh nucl_pos.dat link_seq.dat 100 /usr/people/jarcon/Desktop/Chromatin_Dynamics/test
