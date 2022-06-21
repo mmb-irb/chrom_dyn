@@ -14,7 +14,7 @@ and excluded volume potentials are added to avoid overlaps.
 ### Precompiled version for Linux
 
 Tested on different Ubuntu and Fedora terminals.<br/>
-No installation required (see below for compiling/installing from source files)<br/>
+No installation required (see below for compiling/installing from source files)
 
 Execution:
 
@@ -23,7 +23,7 @@ Execution:
 - The output folder should not exist and an absolute path should be given.
 - See DESCRIPTION below for a brief explanation of required files.
 
-Nucleosome positions file example: nucl_pos.dat
+Nucleosome positions file example: nucl_pos.dat<br/>
 Linker DNA sequence file example: link_seq.dat
 
 Example:
@@ -32,25 +32,17 @@ Example:
 
 *Outputs generted inside the output folder:*
 
-"output_pos":
+"output_pos":<br/>
+&emsp; xyz files containing the 3D structures obtained for the fibers (linker DNA + nucleosomes).<br/>
+&emsp; They are numbered consecutively as cartnucl_000000_000000.xyz, cartnucl_000000_000001.xyz, ...).<br/>
+&emsp; Each nucleosome center is represented as a N atom and each base pair center as a C atom.<br/>
+&emsp; The structures can be visualized using VMD software. To make the nucleosome core visible, do<br/>
+&emsp; &emsp; Representations -> Selected Atoms: name N; Drawing method:VDW; Sphere Scale: 14.<br/>
 
-&emsp; xyz files containing the 3D structures obtained for the fibers (linker DNA + nucleosomes).
-
-&emsp; They are numbered consecutively as cartnucl_000000_000000.xyz, cartnucl_000000_000001.xyz, ...).
-
-&emsp; Each nucleosome center is represented as a N atom and each base pair center as a C atom.
-
-&emsp; The structures can be visualized using VMD software. To make the nucleosome core visible, do
-
-&emsp; &emsp; Representations -> Selected Atoms: name N; Drawing method:VDW; Sphere Scale: 14.
-
-"output_nucl":
-
-&emsp; xyz files containing 3D nucleosome configurations for each structure.
-
-&emsp; Numbered consecutively as nucl_000000_000001.xyz, nucl_000000_000002.xyz, ...).
-
-&emsp; Each nucleosome center is represented as a N atom.
+"output_nucl":<br/>
+&emsp; xyz files containing 3D nucleosome configurations for each structure.<br/>
+&emsp; Numbered consecutively as nucl_000000_000001.xyz, nucl_000000_000002.xyz, ...).<br/>
+&emsp; Each nucleosome center is represented as a N atom.<br/>
 
 The expected time of execution is approximately 10 seconds per MC iteration on a standard
 desktop computer.
@@ -62,13 +54,10 @@ Chromatin dynamics can be executed on a web server: http://vre.multiscalegenomic
 
 Select "Chromatin Dynamics" > "CREATE 3D REPRESENTATION OF CHROMATIN FIBER FROM SEQUENCE"
 
-DNA sequence: [linker sequence file]
-
-Position of nucleosomes: [nucleosome positions file]
-
-Operations: "Create Trajectory"
-
-Number of structures: number of structures to generate.
+DNA sequence: [linker sequence file]<br/>
+Position of nucleosomes: [nucleosome positions file]<br/>
+Operations: "Create Trajectory"<br/>
+Number of structures: number of structures to generate.<br/>
 
 Help: http://vre.multiscalegenomics.eu/tools/chromatindyn/help/help.php
 
