@@ -1,0 +1,2 @@
+MC_DNA: DNAFlex_in_C.c nrutil.c analysis.c cmn_fncs.c rebuild.c
+	gcc DNAFlex_in_C.c nrutil.c analysis.c cmn_fncs.c rebuild.c -o MC_DNA -lm

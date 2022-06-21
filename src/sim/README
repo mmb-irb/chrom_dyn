@@ -1,0 +1,12 @@
+MC Chromatin
+Simulate 3D structures using Monte Carlo from sequence, nucleosome positions and a starting structure
+
+Compilation (gcc compiler required):
+make
+
+Execution:
+./run.sh <nucleosome positions> <linker sequence> <# of MC iterations> <structure helical params> <output directory full path>
+
+Example:
+./run.sh nucl_pos.dat link_seq.dat 100 helpars.dat /usr/people/jarcon/Desktop/Chromatin_Dynamics/src/sim/test_run
+

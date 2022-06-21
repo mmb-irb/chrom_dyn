@@ -1,0 +1,20 @@
+Sequence link_seq.dat 
+Nucleosome positions 5 138 289 317 438 443 457 548 564 659 665 681 830 
+Selection 3 
+it_mcsteps 1 
+it_prog 1 
+it_mc 100000 
+metr_on 2 
+do_sim_ann 2 
+tmax 5000.000000 
+factor 0.950000 
+lj_cut_up 200.000000 
+dh_cut_up 200.000000 
+rnd_start 2 
+acc 7 
+acc_ph 14 
+e_lj 0.000000 
+e_dh 0.000000 
+Final total energy tot_en 62.302659 
+Acceptance rate for Volume overlap: 0.975730
+Acceptance rate for overall MC: 0.819440

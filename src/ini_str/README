@@ -1,0 +1,15 @@
+MC Chromatin
+Obtain initial 3D structure from sequence and nucleosome positions
+
+Compilation (gcc compiler required):
+make
+
+Execution:
+ulimit -s 50000 && ./MC_Chromatin <nucleosome positions> <linker sequence> <ID> <current directory full path> <# of iterations>
+
+Example:
+ulimit -s 50000 && ./MC_Chromatin nucl_pos.dat link_seq.dat 1 /usr/people/jarcon/Desktop/Chromatin_Dynamics/src/ini_str 10
+
+Output in output_dnaflex directory:
+Text file containing the six helical paramaters (shift, slide, rise, tilt, roll, twist) for each base pair of linker DNA
+

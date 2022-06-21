@@ -1,0 +1,24 @@
+June 01, 2009
+	o Fixed memory-leak problem reported by Kristin Tennessen in rebuild.c
+	o Reorganized the source code and streamlined header files
+	o Re-created Makefile, with CFLAG set just to -ansi
+
+March 19, 2009
+	In function read_stdin_str() of cmn_fncs.c, add 
+	    strcpy(strval, "");  /* initialize it */
+	so that direct <ENTER> will work as intended
+	
+March 18, 2009
+	Thanks to Kristin Tennessen from UC Davis for identifying a bug in
+	functions lvector() and lmatrix() in relation to malloc() function call
+	-- sizeof(int *) / sizeof(int) should have been sizeof(long *) /
+	sizeof(long). This bug shows up in 64-bit machine.
+
+March 14-15, 2009
+	Slight tidy-up of the SCHNAarP code after 10+ years it was last changed
+	following my Sheffield days. This was in response Kristin Tennessen from
+	UC Davis for accessing the original source code since 3DNA is not
+	open-source per Rutgers licensing policy.
+
+August 1998 and before
+	initial coding of the package
