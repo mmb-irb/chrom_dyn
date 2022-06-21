@@ -14,17 +14,15 @@ electrostatics and excluded volume potentials are added to avoid overlaps.
 ## Precompiled version for Linux
 
 Tested on different Ubuntu and Fedora terminals.<br/>
-No installation required (see below for compiling/installing from source files)
+No installation required (see below for compiling/installing from source files).
 
 Execution:
 
 > sh run.sh [nucleosome positions] [linker sequence] [# of MC iterations] [output folder]
 
+- Nucleosome positions file example: nucl_pos.dat
+- Linker DNA sequence file example: link_seq.dat
 - The output folder should not exist and an absolute path should be given.
-- See DESCRIPTION below for a brief explanation of required files.
-
-Nucleosome positions file example: nucl_pos.dat<br/>
-Linker DNA sequence file example: link_seq.dat
 
 Example:
 
