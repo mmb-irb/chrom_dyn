@@ -18,7 +18,7 @@ No installation required (see below for compiling/installing from source files).
 
 Execution:
 
-> sh run.sh [nucleosome positions] [linker sequence] [# of MC iterations] [output folder]
+> ``sh run.sh [nucleosome positions] [linker sequence] [# of MC iterations] [output folder]``
 
 - Nucleosome positions file example: nucl_pos.dat
 - Linker DNA sequence file example: link_seq.dat
