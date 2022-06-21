@@ -8,8 +8,10 @@ Tested on different Ubuntu and Fedora terminals.
 
 No installation required (see below for compiling/installing from source files)
 
+
 Execution:
-sh run.sh <nucleosome positions> <linker sequence> <# of MC iterations> <output folder>
+
+> sh run.sh <nucleosome positions> <linker sequence> <# of MC iterations> <output folder>
 
 	- The output folder should not exist and an absolute path should be given.
         - See DESCRIPTION below for a brief explanation of required files.
