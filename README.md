@@ -34,10 +34,15 @@ Example:
 *Outputs generted inside the output folder:*
 
 "output_pos":
+
 &emsp; xyz files containing the 3D structures obtained for the fibers (linker DNA + nucleosomes).
+
 &emsp; They are numbered consecutively as cartnucl_000000_000000.xyz, cartnucl_000000_000001.xyz, ...).
+
 &emsp; Each nucleosome center is represented as a N atom and each base pair center as a C atom.
+
 &emsp; The structures can be visualized using VMD software. To make the nucleosome core visible, do
+
 &emsp; &emsp; Representations -> Selected Atoms: name N; Drawing method:VDW; Sphere Scale: 14.
 
 "output_nucl": xyz files containing 3D nucleosome configurations for each structure
