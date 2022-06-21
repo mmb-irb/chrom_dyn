@@ -62,11 +62,11 @@ Help: http://vre.multiscalegenomics.eu/tools/chromatindyn/help/help.php
 ------------------------------------------------------------------------------------------
 ### Source files
 
-The src/ directory contains the code for the two instances of the program: obtaining the
-starting 3D structure from the linker sequence and the nucleosome positions (ini_str
-directory) & simulating the different fiber conformations (sim directory). The main code
-is in the file "main_tetra_di.c" of each directory. Type make to compile the program and
-execute as indicated in the README file.
+The ``src/`` directory contains the code for the two instances of the program: obtaining the
+starting 3D structure from the linker sequence and the nucleosome positions (``ini_str/``
+directory) and simulating the different fiber conformations (``sim/`` directory). The main code
+is in the file ``main_tetra_di.c`` of each directory. Type ``make`` to compile the program and
+execute as indicated in the ``README`` file.
 
 The program compiles in less than a minute on a standard desktop computer.
 
