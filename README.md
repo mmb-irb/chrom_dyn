@@ -1,4 +1,4 @@
-### Chromatin Dynamics
+# Chromatin Dynamics
 ## Molecular Modelling and Bioinformatics Group
 ## IRB Barcelona
 
