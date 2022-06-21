@@ -1,6 +1,6 @@
-Chromatin Dynamics
-Molecular Modelling and Bioinformatics Group
-IRB Barcelona
+### Chromatin Dynamics
+## Molecular Modelling and Bioinformatics Group
+## IRB Barcelona
 
 Precompiled version for Linux.
 Tested on different Ubuntu and Fedora terminals.
