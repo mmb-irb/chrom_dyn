@@ -26,7 +26,7 @@ Execution:
 
 Example:
 
-> sh run.sh nucl_pos.dat link_seq.dat 100 ~/chrom_dyn/test
+> ``sh run.sh nucl_pos.dat link_seq.dat 100 ~/chrom_dyn/test``
 
 *Outputs generted inside the output folder:*
 
