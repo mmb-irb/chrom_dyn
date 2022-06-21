@@ -7,8 +7,8 @@ level considering nucleosome positions. It requires as input the sequence of lin
 and the position of the nucleosomes in the sequence. The conformational sampling is done
 by a Monte Carlo (MC) algorithm, considering flexible linkers and rigid nucleosomes.
 Linker DNA is represented at the base pair level by a pseudo-harmonic potential expressed
-in helical parameters (rise, slide, shift, twist, roll, tilt). Debye-Huckel electrostatics
-and excluded volume potentials are added to avoid overlaps.
+in helical parameters (*rise*, *slide*, *shift*, *twist*, *roll*, *tilt*). Debye-Huckel
+electrostatics and excluded volume potentials are added to avoid overlaps.
 
 ------------------------------------------------------------------------------------------
 ## Precompiled version for Linux
