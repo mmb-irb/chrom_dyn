@@ -17,7 +17,8 @@ Execution:
 - See DESCRIPTION below for a brief explanation of required files.
 
 Example:
-sh run.sh nucl_pos.dat link_seq.dat 100 /usr/people/jarcon/Desktop/Chromatin_Dynamics/test
+
+> sh run.sh nucl_pos.dat link_seq.dat 100 ~/chrom_dyn/test
 
 The expected time of execution is approximately 10 seconds per MC iteration on a standard
 desktop computer.
