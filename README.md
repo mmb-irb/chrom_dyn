@@ -3,7 +3,9 @@
 ## IRB Barcelona
 
 Precompiled version for Linux.
+
 Tested on different Ubuntu and Fedora terminals.
+
 No installation required (see below for compiling/installing from source files)
 
 Execution:
